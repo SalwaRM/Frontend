@@ -6,7 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. https://www.averycoxdesign.com/
+1. https://www.averycoxdesign.com/ (content/images)
+2. https://www.youtube.com/watch?v=DZg6UfS5zYg (hamburger menu)
+3. https://www.youtube.com/watch?v=ydZc17rlR5E (hamburger menu)
 
 
 
@@ -28,7 +30,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+- Hamburger menu was een beetje pittig. Ik heb het eigenlijk nog steeds niet helemaal af. Hij komt wel te voorschijn als het scherm kleiner wordt en je kan er ook op klikken, maar het menu dat dan tevoorschijn komt, daar moet ik nog aan werken.
+
+- Ik heb de feedback van vorige week verwerkt. Ik de social media knoppen een :hover state gegeven.
+
+- Ik heb wat imperfecties verbeterd: de witte achtergrond van de 'Enter Site' button vulde niet de gehele knop. Het duurde me verschrikkelijk lang om erachter te komen waar dat aan lag, maar ik heb het nu wel verbeterd.
+
+- Ik heb het logo responsive gemaakt (mbv media query).
+
+- Ik heb nog wat content toegevoegd. Het is nog niet helemaal af. Ik moet er met flexbox nog aan werken.
 
 
 
@@ -55,7 +65,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Ik ben goed op weg. De kleine animatie (?) op de homepagina kan ik doen met javascript dus daar moet ik even naar kijken.
+Ik moet ook de social media knoppen wat leuker kunnen maken door een :hover state toe te voegen.
 
 
 
