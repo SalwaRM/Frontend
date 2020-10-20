@@ -8,27 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
 </head>
-<body>
+<body class="home">
     <header>
         <img src="images/logo.png" alt="Avery Cox Design" title="" class="logo1"/>
         <nav>
         <button class="hamburger" id="hamburger">
             <i></i>
         </button>
-        <ul id="nav">
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Press</li>
-            <li>Contact</li>
+        <ul id="navul">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#press">Press</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li>Blog</li>
         </ul>
         </nav>
     </header>
     
-    <section>
-         <img src="images/homeheaderimg.jpg" alt="" title=""/>
-    </section>
+    <div class="parallax">
+        <i></i>
+    </div>
     
     <main class="homemain">
         <h2>Avery Cox Design - Based in Austin, Texas</h2>
@@ -36,7 +36,7 @@
         
         <hr>
         
-        <h2>.01</h2>
+        <h2 id="services">.01</h2>
         <h1>Avery Cox Design</h1>
         <h2>Creative Services 1 Offer</h2>
         
@@ -57,10 +57,10 @@
         </div>
         </article>
         
-        <h2>.02</h2>
+        <h2 id="portfolio">.02</h2>
         <h1>Portfolio</h1>
         
-        <article class="portcolumn">
+        <article class="portfolio">
             <div>
                 <img src="images/port1.jpg" alt=""/>
                 <img src="images/port4.jpg" alt=""/>
@@ -88,7 +88,7 @@
             </div>
         </article>
         
-        <h2>.03</h2>
+        <h2 id="about">.03</h2>
         <h1>About Avery</h1>
         <h2>Design Philosophy - When in doubt, be bold</h2>
         
@@ -105,52 +105,107 @@
         
         <hr>
         
-        <h2>.04</h2>
+        <h2 id="press">.04</h2>
         <h1>Notable Press</h1>
         <article class="pressarticle">
-            <div class="press">
-                <img src="images/ruedaily.png" alt="Rue Daily" title="" />
-                <p>Feature — Three Colorful Bathroom Updates for an Austin, Texas Home</p>
+            <div class="pressgrid">
+               
+                <div id="press1-1" class="press">
+                    <img src="images/ruedaily.png" alt="Rue Daily" title="" />
+                    <p>Feature — Three Colorful Bathroom Updates for an Austin, Texas Home</p>
+                </div>
                 
-                <img src="images/designsponge.png" alt="Design Sponge" title=""/>
-                <p>Article – Celebrating the States: The South (West of the Mississippi)</p>
+                <div id="press1-2" class="press">
+                    <img src="images/designsponge.png" alt="Design Sponge" title=""/>
+                    <p>Feature — A Rustic Bungalow in Austin, TX Celebrating Family</p>
+                </div>
                 
-                <img src="images/washingtonpost.jpg" alt="The Washington Post" title=""/>
-                <p>Article — Experts' Favorite Folding Chairs for Entertaining a Crowd</p>
+                <div id="press1-3" class="press">
+                    <img src="images/designsponge.png" alt="Design Sponge" title=""/>
+                    <p>Article – Celebrating the States: The South (West of the Mississippi)</p>
+                </div>
                 
-                <img src="images/viyet.jpg" alt="Viyet" title=""/>
-                <p>Article — How Ivy Designers Get Ready for the Holiday Season</p>
+                <div id="press1-4" class="press">      
+                    <img src="images/washingtonpost.jpg" alt="The Washington Post" title=""/>
+                    <p>Article — Experts' Favorite Folding Chairs for Entertaining a Crowd</p>
+                </div>
+                   
+                <div id="press1-5" class="press">   
+                    <img src="images/viyet.jpg" alt="Viyet" title=""/>
+                    <p>Article — How Ivy Designers Get Ready for the Holiday Season</p>
+                </div>
+                   
+                <div id="press1-6" class="press">   
+                    <img src="images/austinhome.jpg" alt="Austin Home" title=""/>
+                    <p>Article — Austin Designers Pick Their Favorite Pieces: 3 Comfortable Lounge Ch...</p>
+                </div>
                 
-                <img src="images/austinhome.jpg" alt="Austin Home" title=""/>
-                <p>Article — Austin Designers Pick Their Favorite Pieces: 3 Comfortable Lounge Ch...</p>
-                
-                <img src="images/luellajune.jpg" alt="Luella & June" title=""/>
-                <p>Feature — You need to know about: Ornamental Habit</p>
-            </div>
-            
-            <div class="press">	
-                <img src="images/dwell.jpg" alt="Dwell" title=""/>
-                <p>Feature — This Little House in Washington Has Mighty Big Ties to Nature</p>
-                
-                <img src="images/styleline.jpeg" alt="The Style Line" title=""/>
-                <p>Feature — Avery Cox on Individuality, Longevity, and Sustainable Design</p>
-                
-                <img src="images/austinhome.jpg" alt="Austin Home"/>
-                <p>Feature — Avery Cox on Individuality, Longevity, and Sustainable Design</p>
-                
-                <img src="images/gooddesign.png" alt="Good Design"/>
-                <p>Award or Honor — Chicago Atheneum American Architecture Award 2017 – Little H...</p>
-                
-                <img src="images/elephanttable.jpg" alt="The Elephant Table"/>
-                <p>Event Gallery – The Elephant Table Collab with Milo Waco and Avery Cox Design</p>
-                
-                <img src="images/nytimes.jpg" alt="The New York Times"/>
-                <p>Feature — From Floor Plans to Décor, a Focus on Design</p>
+                <div id="press1-7" class="press">
+                    <img src="images/luellajune.jpg" alt="Luella & June" title=""/>
+                    <p>Feature — You need to know about: Ornamental Habit</p>
+                </div>
+                   
+                <div id="press2-1" class="press">  
+                    <img src="images/dwell.jpg" alt="Dwell" title=""/>
+                    <p>Feature — This Little House in Washington Has Mighty Big Ties to Nature</p>
+                </div> 
+                   
+                <div id="press2-2" class="press">   
+                    <img src="images/styleline.jpeg" alt="The Style Line" title=""/>
+                    <p>Feature — Avery Cox on Individuality, Longevity, and Sustainable Design</p>
+                </div>
+                   
+                <div id="press2-3" class="press">   
+                    <img src="images/austinhome.jpg" alt="Austin Home"/>
+                    <p>Feature — Avery Cox on Individuality, Longevity, and Sustainable Design</p>
+                </div>
+                   
+                <div id="press2-4" class="press">   
+                    <img src="images/gooddesign.png" alt="Good Design"/>
+                    <p>Award or Honor — Chicago Atheneum American Architecture Award 2017 – Little H...</p>
+                </div>
+                   
+                <div id="press2-5" class="press">   
+                    <img src="images/elephanttable.jpg" alt="The Elephant Table"/>
+                    <p>Event Gallery – The Elephant Table Collab with Milo Waco and Avery Cox Design</p>
+                </div>
+                   
+                <div id="press2-6" class="press">   
+                    <img src="images/nytimes.jpg" alt="The New York Times"/>
+                    <p>Feature — From Floor Plans to Décor, a Focus on Design</p>
+                </div>
+                    
             </div>
         </article>
         
         <h1>Additional Press Mentions</h1>
+        <article class="mentions">
+            <p><span>Arch Daily- </span>Little House / mw|works architecture+design</p>
+            
+            <p><span>The Style Line- </span>A Line from: Avery Cox</p>
+            
+            <p><span>The Effortless Style Blog- </span>Getting Your High Heeled Foot in the Door</p>
+            
+            <p><span>Mikaela Hamilton Blog- </span>The Style Line - Avery Cox</p>
+            
+            <p><span>See me Feed Me Read Me- </span>8 Supper Clubs in Austin that are Redefining Fine Dining</p>
+        </article>
     </main>
+    
+    <div class="parallax2">
+        <i></i>
+    </div>
+    
+    <footer class="homefooter" id="contact">
+        <img src="/images/logo.png" alt="Avery Cox Design"/>
+        <h2>For more information, email <span><a href="mailto:avery@averycoxdesign.com">avery@averycoxdesign.com</a></span></h2>
+            <div class="socialbottomctnr">
+                <a href="https://www.instagram.com/averycoxdesign/" target="_blank" class="socialbottom">Instagram</a>
+                <a href="https://nl.pinterest.com/averycoxdesign/_saved/" target="_blank" class="socialbottom">Pinterest</a>
+                <a href="https://www.facebook.com/averycoxdesign" target="_blank" class="socialbottom">Facebook</a>
+                <a href="https://www.houzz.com/professionals/interior-designers-and-decorators/avery-cox-design-pfvwus-pf~252496104?" target="_blank" class="socialbottom">Houzz</a>
+            </div>    
+    </footer>
     <script src="js/AC.js"></script>    
 </body>
 </html>

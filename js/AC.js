@@ -9,7 +9,7 @@
 
 //declaratie DOM elementen
 var hamburger = document.querySelector('#hamburger');
-var nav = document.querySelector('#nav');
+var nav = document.querySelector('#navul');
 
 
 //toestand: globale variabelen/constanten initialiseren
@@ -19,6 +19,7 @@ var nav = document.querySelector('#nav');
 // eventHandler functie : gooiDobbelsteen
 function klikmenu(){
     nav.classList.toggle('show');
+    hamburger.classList.toggle('rotate');
 }
 
 
